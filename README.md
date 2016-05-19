@@ -1,6 +1,6 @@
 # tl;dr:
 
-Use Meet-in-the-Middle technique to crack the scheme (approx. O(2^40) instead of O(2^60) full brute force). Plaintext starts with HTTP headers, so use this information to the LFSRs state and decrypt traffic.
+Use Meet-in-the-Middle technique to crack the scheme (approx. O(2^40) instead of O(2^60) full brute force). Plaintext starts with HTTP headers, so use this information to recover the LFSRs states and decrypt traffic.
 
 # motivation
 
