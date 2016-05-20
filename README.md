@@ -102,7 +102,7 @@ As we can see, at each tick every register produces a bit of keystream, all the 
 
 After a brief look we have some points to attack the scheme:
 
-1. Examine the period of each LFSR - the can be sort periods in them and we can use some keyless technique to recover the plaintext. We also can try to find minimal polynomials of the LFSRs and try to make an equivalent scheme but with smaller keyspace.
+1. Examine the period of each LFSR - there can be short periods in them and we can use some keyless technique to recover the plaintext. We also can try to find minimal polynomials of the LFSRs and try to make an equivalent scheme but with smaller keyspace.
 2. There might be something wrong with six-to-four mapping ```Sbox``` (for example, it's highly unballanced etc.) and we can use some keyless methods. 
 2. Use bruteforce to find out the key
 3. Use some kind of optimized brute force to recover the key.
